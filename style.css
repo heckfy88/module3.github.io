@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+  width: 100%;
+}
+.title_chicken {
+  float: right;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  width: 100px;
+  top: 0;
+  right: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.title_beef {
+  float: none;
+  position: center;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  width: 100px;
+  top: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.title_lamb {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  width: 100px;
+  top: 0;
+  left: 0;
+  margin:0;
+  text-align: center;
+}
+
+.text {
+  clear: right;
+  margin: 5px;
+}
+#name {
+  text-align: center;
+  font-size: 30px;
+}
+#chicken {
+  background: #ff7f50;
+}
+#beef {
+  background: #FF4500;
+}
+#lamb {
+  background: #ffdb58;
+}
+.box {
+  margin:10px;
+  background: #585858;
+  border: 3px solid black;
+}
+
+#header-nav {
+  background: #585858;
+  border-radius: 0;
+  border: 0;
+}
+.container {
+  margin: 0;
+}
+
+.navbar-brand {
+  padding: 10px;
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #909090;
+  line-height: .75;
+  margin-top: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list > li {
+  text-align: center;
+}
+
+#nav-list > li > a:hover, #nav-list > li > a:focus {
+  text-decoration: none;
+}
+a {
+  color: #909090;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
